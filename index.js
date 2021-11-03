@@ -46,10 +46,12 @@ Use the copy function below to do the following:
 */
 
 function copy(array){
-   
+   let newArray = [...array];{
+     return newArray;
+   }
 }
 
-
+console.log('Task 1', copy(originalFlavors));
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Confirm that an array is exactly 31 flavors. Your function should accept:
   1. an array as a parameter
